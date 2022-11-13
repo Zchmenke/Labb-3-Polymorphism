@@ -8,7 +8,7 @@ namespace Labb_3_Polymorphism
     internal class Square : Geometri
     {
         //declaring a field to use for calculation.
-        public double side { get; set; }
+        double side { get; set; }
 
         // setting field value
         public Square()

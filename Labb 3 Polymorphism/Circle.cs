@@ -9,7 +9,7 @@ namespace Labb_3_Polymorphism
     internal class Circle : Geometri
     {
        // declaring field
-        public double radius { get; set; }
+        double radius { get; set; }
 
         // setting field value
         public Circle()
@@ -22,8 +22,5 @@ namespace Labb_3_Polymorphism
         {           
             return 3.141 * Math.Pow(radius, 2);
         }
-
-
-
     }
 }

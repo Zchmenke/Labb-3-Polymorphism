@@ -11,8 +11,7 @@ namespace Labb_3_Polymorphism
     // Base class 
     internal class Geometri
     {
-        //Method that returns a double
-     
+        //Method that returns a double   
         public virtual double Area()
         {
             return 0;
